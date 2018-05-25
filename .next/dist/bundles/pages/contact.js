@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -217,72 +217,74 @@ var _jsxFileName = "C:\\Projects\\personal-site\\components\\layout.js";
 
 /***/ }),
 
-/***/ "./pages/index.js":
+/***/ "./components/number.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head__ = __webpack_require__("next/head");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_head__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_layout__ = __webpack_require__("./components/layout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_motion__ = __webpack_require__("react-motion");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_motion___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_motion__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_pose__ = __webpack_require__("react-pose");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react_pose___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react_pose__);
-var _jsxFileName = "C:\\Projects\\personal-site\\pages\\index.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+var _jsxFileName = "C:\\Projects\\personal-site\\components\\number.js";
 
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+/* harmony default export */ __webpack_exports__["a"] = (function (_ref) {
+  var children = _ref.children,
+      number = _ref.number;
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    className: "jsx-1789746576" + " " + 'root'
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_layout__["a" /* default */], {
-    title: "Sam Groot",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 2
     }
-  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    className: "jsx-1789746576" + " " + 'message'
-  }, "My name is Sam Groot.", __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    className: "jsx-1789746576"
-  }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    className: "jsx-1789746576"
-  }), " I like to use creative solutions to solve expensive problems.")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
-    styleId: "1789746576",
-    css: "div.jsx-1789746576{font:23px Times,Arial,sans-serif;}.message.jsx-1789746576{text-align:center;padding-top:50px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzXFxpbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFjZ0IsQUFHMEMsQUFHakIsa0JBQ0QsZUFIbkIsRUFJQSIsImZpbGUiOiJwYWdlc1xcaW5kZXguanMiLCJzb3VyY2VSb290IjoiQzpcXFByb2plY3RzXFxwZXJzb25hbC1zaXRlIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJ1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvbGF5b3V0J1xyXG5pbXBvcnQge01vdGlvbiwgc3ByaW5nfSBmcm9tICdyZWFjdC1tb3Rpb24nXHJcbmltcG9ydCBwb3NlZCBmcm9tIFwicmVhY3QtcG9zZVwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPSdyb290Jz5cclxuICAgIDxMYXlvdXQgdGl0bGU9J1NhbSBHcm9vdCc+XHJcbiAgICAgIDxkaXYgY2xhc3NOYW1lPSdtZXNzYWdlJz5cclxuICAgICAgICBNeSBuYW1lIGlzIFNhbSBHcm9vdC48YnIvPjxici8+IEkgbGlrZSB0byB1c2UgY3JlYXRpdmUgc29sdXRpb25zIHRvIHNvbHZlIFxyXG4gICAgICAgIGV4cGVuc2l2ZSBwcm9ibGVtcy5cclxuICAgICAgPC9kaXY+XHJcbiAgICA8L0xheW91dD5cclxuICAgIFxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgZGl2IHtcclxuICAgICAgZm9udDogMjNweCBUaW1lcywgQXJpYWwsIHNhbnMtc2VyaWY7XHJcbiAgICB9O1xyXG4gICAgLm1lc3NhZ2Uge1xyXG4gICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgIHBhZGRpbmctdG9wOiA1MHB4O1xyXG4gICAgfTtcclxuICAgIGB9PC9zdHlsZT5cclxuXHJcbiAgPC9kaXY+XHJcbikiXX0= */\n/*@ sourceURL=pages\\index.js */"
-  }));
+      lineNumber: 3
+    }
+  }, "Call me at ", number), children);
 });
 
 /***/ }),
 
-/***/ 3:
+/***/ "./pages/contact.js":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_layout__ = __webpack_require__("./components/layout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_number__ = __webpack_require__("./components/number.js");
+var _jsxFileName = "C:\\Projects\\personal-site\\pages\\contact.js";
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_layout__["a" /* default */], {
+    title: "Contact us",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    classname: "contact",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_number__["a" /* default */], {
+    number: "317-703-0941",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    }
+  })));
+});
+
+/***/ }),
+
+/***/ 5:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/contact.js");
 
 
 /***/ }),
@@ -315,13 +317,6 @@ module.exports = require("react-motion");
 
 /***/ }),
 
-/***/ "react-pose":
-/***/ (function(module, exports) {
-
-module.exports = require("react-pose");
-
-/***/ }),
-
 /***/ "styled-jsx/style":
 /***/ (function(module, exports) {
 
@@ -330,4 +325,4 @@ module.exports = require("styled-jsx/style");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=contact.js.map

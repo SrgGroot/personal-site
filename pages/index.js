@@ -1,13 +1,15 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
+import {Motion, spring} from 'react-motion'
+import posed from "react-pose";
 
 export default () => (
   <div className='root'>
     <Layout title='Sam Groot'>
-        <div className='message'>
-          My name is Sam Groot.<br/><br/> I like to use creative solutions to solve 
-          expensive problems.
-        </div>
+      <div className='message'>
+        My name is Sam Groot.<br/><br/> I like to use creative solutions to solve 
+        expensive problems.
+      </div>
     </Layout>
     
     <style jsx>{`

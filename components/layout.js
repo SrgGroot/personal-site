@@ -23,13 +23,9 @@ export default ({ children, title }) => (
           </nav>
         </header>
         
-        <div className='content'>
-          { children }
-        </div>
+        <div className='content'> { children } </div>
 
-        <footer>
-          {'I\'m a footer'}
-        </footer>
+        <footer> {'I\'m a footer'} </footer>
 
         <style jsx global>{`
           html {
@@ -78,6 +74,5 @@ export default ({ children, title }) => (
 
       </div>
     )}
-
   </Motion>
 )
