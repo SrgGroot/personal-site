@@ -3,24 +3,43 @@ import Layout from '../components/layout'
 import {Motion, spring} from 'react-motion'
 import posed from "react-pose";
 
-export default () => (
-  <div className='root'>
-    <Layout title='Sam Groot'>
-      <div className='message'>
-        My name is Sam Groot.<br/><br/> I like to use creative solutions to solve 
-        expensive problems.
-      </div>
-    </Layout>
-    
-    <style jsx>{`
-    div {
-      font: 23px Times, Arial, sans-serif;
-    };
-    .message {
-      text-align: center;
-      padding-top: 50px;
-    };
-    `}</style>
+const CreateIndex = (props) => {
+  const component = new React.Component(props);
+  component.state = {
+    subject: "My name is Sam Groot.",
+    body: " I use creative solutions to solve expensive problems.",
+    changeName: "am Groot."
+  };
+  component.handleChange = (event) => {
+    component.setState({[event.target.name]: event.target.value});
+  }
+  component.componentDidMount = function() {
+    component
+  }
+  component.render = function() {
+    return (
+      <div className='root'>
+        <Layout title='Sam Groot'>
+          <div className='message'>
+            {component.state.subject}<br/><br/> I {component.state.changeName}
+          </div>
+          <input value={component.state.changeName} id='changeNameID' name='changeName' onChange={component.handleChange}/>
+        </Layout>
+        
+        <style jsx>{`
+        div {
+          font: 23px Times, Arial, sans-serif;
+        };
+        .message {
+          text-align: center;
+          padding-top: 50px;
+        };
+        `}</style>
 
-  </div>
-)
+      </div>
+    )
+  }
+  return component;
+}
+
+export default CreateIndex;
