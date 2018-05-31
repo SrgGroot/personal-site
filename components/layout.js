@@ -25,7 +25,7 @@ export default ({ children, title }) => (
         
         <div className='content'> { children } </div>
 
-        <footer> {'I\'m a footer'} </footer>
+        <footer> {'samrgroot@gmail.com'} </footer>
 
         <style jsx global>{`
           html {

@@ -21,9 +21,10 @@ const CreateIndex = (props) => {
       <div className='root'>
         <Layout title='Sam Groot'>
           <div className='message'>
-            {component.state.subject}<br/><br/> I {component.state.changeName}
+            {component.state.subject}
+            <br/><br/> 
+            {component.state.body}
           </div>
-          <input value={component.state.changeName} id='changeNameID' name='changeName' onChange={component.handleChange}/>
         </Layout>
         
         <style jsx>{`
