@@ -10,16 +10,20 @@ export default () => (
           transform: `translateX(${style.x}px)`,
           opacity: style.opacity }} 
           className='target-div'> 
-            rrrrooooowwwwwwwwwwwww
+            I like JavaScript
+            <p className="smaller"> I also like reading articles on web app programming</p>
         </div>
       )}
     </Motion>
 
     <style jsx>{`
         .target-div {
-          font: 50px Helvetica, Arial, sans-serif;
-          display: inline-block;
-          background-color: #C1C0B9
+          margin-top: 50px;
+          font: 35px Helvetica, Arial, sans-serif;
+          text-align: center;
+        }
+        .smaller {
+          font: 23px Times, Arial, sans-serif;
         }
      `}</style>
 
