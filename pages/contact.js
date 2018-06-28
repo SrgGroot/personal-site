@@ -9,7 +9,6 @@ export default () => (
 
     <style jsx>{`
     .contact {
-      margin-top: 50px;
       text-align: center;
       font: 35px Helvetica, Arial, sans-serif;
     }
