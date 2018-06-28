@@ -20,12 +20,17 @@ export default ({ children, title }) => (
             <Link href='/'><a>Home</a></Link> 
             <Link href='/about'><a>About</a></Link>
             <Link href='/contact'><a>Contact</a></Link>
+            <Link href='/newindex'><a>Color Palettes</a></Link>
           </nav>
         </header>
         
-        <div className='content'> { children } </div>
+        <div id='content'> 
+          { children } 
+        </div>
 
-        <footer> {'samrgroot@gmail.com'} </footer>
+        <footer> 
+          {'samrgroot@gmail.com'} 
+        </footer>
 
         <style jsx global>{`
           html {
@@ -39,24 +44,45 @@ export default ({ children, title }) => (
         `}</style>
 
         <style jsx>{`
+        #content {
+          padding-top: 0px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        header {
+          width: 100%;
+        }
         nav {
           text-align: center;
           font: 23px Helvetica, Arial, sans-serif;
-          padding: 12px;
+          flex: 1;
           padding-top: 20px;
           position: fixed;
           z-index: 1000;
           top: 0;
           left: 0;
           right: 0;
+          width: 100%;
+
         };
         a {
-          padding: 20px;
+          padding: 15px;
           color: #00ADB5;
           text-decoration: none;
         };
+        @media (max-width: 600px) {
+          a {
+            padding: 10px;
+          };
+          nav {
+            font: 16px Helvetica, Arial, sans-serif;
+          };
+        };
         div {
           padding-top: 40px;
+          padding-left: 5px;
+          padding-right: 5px;
         };
         footer {
           padding-top: 40px;
@@ -65,10 +91,7 @@ export default ({ children, title }) => (
           text-align: center;
         };
         .root {
-          height: 100%;
-        };
-        .content {
-          padding: 10px;
+          flex: 1;
         };
         `}</style>
 
